@@ -1,10 +1,68 @@
-h1{
-	font-size: 144px;
-	color: rgb(5,67,129);
+/*h1{
+	font-size: 60px;
+	color: rgb(5,116,240);
+	text-align: center;
+	border: 2px solid blue;
+	padding: 10px;
+	margin: 50px;
+	background-color: white;
 }
-
 p{
 	font-family: 'Comic Sans MS';
+	font-size: 20px;
+	color: rgb(100, 30,156);
+	text-align: center;
+	margin:20px 500px 20px 1px ;
+	border:1px solid;
+}
+body{
+	background-color: lightblue;
+}
+*/
+html{
+	font-family: sans-serif;
+	font-size: 24px;
+	padding:0;
+	margin: 0;
 }
 
+body{
+	padding:0;
+	margin: 0;
+}
+
+header{
+	background-color:lightblue;
+	grid-column: span 3;
+	padding: 16px;
+}
+
+nav{
+	background-color: blue;
+	padding: 16px;
+}
+
+main{
+	background-color: lavender;
+	padding: 16px;
+}
+
+aside{
+	background-color: pink;
+	padding: 16px;
+}
+
+footer{
+	background-color: red;
+	grid-column: span 3;
+	padding: 16px;
+}
+
+.container{
+	border: 1px solid rgba(0,0,0,0.4);
+	display:grid;
+	min-height: 100vh;
+	grid-template-columns:20% auto 20% ;
+	grid-template-rows:auto 1fr auto;
+}
 
