@@ -32,19 +32,21 @@ body{
 }
 
 header{
-	background-color:lightblue;
+	background-color:#3b5998;
 	grid-column: span 3;
 	padding: 16px;
+	color: white;
 }
 
 nav{
-	background-color: blue;
-	padding: 16px;
+	background-color: powderblue;
+	padding: 10px;
 }
 
 main{
 	background-color: lavender;
 	padding: 16px;
+	font-size: 16px;
 }
 
 aside{
@@ -53,9 +55,10 @@ aside{
 }
 
 footer{
-	background-color: red;
+	background-color: #3b5998;
 	grid-column: span 3;
 	padding: 16px;
+
 }
 
 .container{
@@ -66,3 +69,19 @@ footer{
 	grid-template-rows:auto 1fr auto;
 }
 
+.painting{
+	width:300px;
+	height:230px;
+	border: 1px solid gray;
+	margin: 5px 200px;
+}
+
+p{
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+img{
+	width:220px;
+	height:150px;
+}
