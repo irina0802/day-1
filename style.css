@@ -32,7 +32,7 @@ body{
 }
 
 header{
-	background-color:#3b5998;
+	background-color:#009933;
 	grid-column: span 3;
 	padding: 16px;
 	color: white;
@@ -55,7 +55,7 @@ aside{
 }
 
 footer{
-	background-color: #3b5998;
+	background-color: #009933;
 	grid-column: span 3;
 	padding: 16px;
 
